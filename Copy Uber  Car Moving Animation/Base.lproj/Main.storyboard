@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7dg-XX-IXp">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="V2D-Ps-8wU">
+            <objects>
+                <navigationController id="7dg-XX-IXp" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Erh-OX-mUG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="cao-q5-dRf" kind="relationship" relationship="rootViewController" id="p9K-F7-afE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vMg-7Y-xjl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="431" y="-191"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ku1-4H-fmc">
+            <objects>
+                <viewController id="cao-q5-dRf" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xo2-gv-UVA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mxk-wN-YEO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8h8-jr-fW1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LqH-66-2hB" customClass="BMKMapView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="LqH-66-2hB" secondAttribute="bottom" id="0oQ-tU-YjP"/>
+                            <constraint firstItem="LqH-66-2hB" firstAttribute="top" secondItem="Xo2-gv-UVA" secondAttribute="bottom" id="cCG-bv-SgT"/>
+                            <constraint firstItem="LqH-66-2hB" firstAttribute="leading" secondItem="8h8-jr-fW1" secondAttribute="leading" id="uoq-rJ-hGj"/>
+                            <constraint firstAttribute="trailing" secondItem="LqH-66-2hB" secondAttribute="trailing" id="yLO-kd-y0m"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="tZO-LO-G6R"/>
+                    <connections>
+                        <outlet property="mapView" destination="LqH-66-2hB" id="hSW-ah-Kjk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sAW-UQ-5z3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1210" y="-191"/>
+        </scene>
+    </scenes>
+</document>

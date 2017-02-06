@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57F855DB331CDB7158E73934 /* libPods-Copy Uber  Car Moving Animation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45D0D03A7003100F9127838 /* libPods-Copy Uber  Car Moving Animation.a */; };
+		A14E75F61E4889340087AB66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E75F51E4889340087AB66 /* main.m */; };
+		A14E75F91E4889340087AB66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E75F81E4889340087AB66 /* AppDelegate.m */; };
+		A14E75FC1E4889340087AB66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E75FB1E4889340087AB66 /* ViewController.m */; };
+		A14E75FF1E4889340087AB66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14E75FD1E4889340087AB66 /* Main.storyboard */; };
+		A14E76011E4889340087AB66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14E76001E4889340087AB66 /* Assets.xcassets */; };
+		A14E76041E4889340087AB66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14E76021E4889340087AB66 /* LaunchScreen.storyboard */; };
+		A14E76121E488B190087AB66 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E760D1E488B190087AB66 /* UIColor+HEX.m */; };
+		A14E76131E488B190087AB66 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E760F1E488B190087AB66 /* UIImage+Color.m */; };
+		A14E76141E488B190087AB66 /* NSTimer+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E76111E488B190087AB66 /* NSTimer+Blocks.m */; };
+		A14E76171E488B810087AB66 /* MapBusAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = A14E76161E488B810087AB66 /* MapBusAnnotationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5FA07995496B9A935723EFED /* Pods-Copy Uber  Car Moving Animation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Copy Uber  Car Moving Animation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Copy Uber  Car Moving Animation/Pods-Copy Uber  Car Moving Animation.debug.xcconfig"; sourceTree = "<group>"; };
+		A14E75F11E4889340087AB66 /* Copy Uber  Car Moving Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Copy Uber  Car Moving Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14E75F51E4889340087AB66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A14E75F71E4889340087AB66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A14E75F81E4889340087AB66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A14E75FA1E4889340087AB66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A14E75FB1E4889340087AB66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A14E75FE1E4889340087AB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A14E76001E4889340087AB66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A14E76031E4889340087AB66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A14E76051E4889340087AB66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14E760C1E488B190087AB66 /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
+		A14E760D1E488B190087AB66 /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
+		A14E760E1E488B190087AB66 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		A14E760F1E488B190087AB66 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		A14E76101E488B190087AB66 /* NSTimer+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Blocks.h"; sourceTree = "<group>"; };
+		A14E76111E488B190087AB66 /* NSTimer+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Blocks.m"; sourceTree = "<group>"; };
+		A14E76151E488B810087AB66 /* MapBusAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapBusAnnotationView.h; sourceTree = "<group>"; };
+		A14E76161E488B810087AB66 /* MapBusAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapBusAnnotationView.m; sourceTree = "<group>"; };
+		CFD60ACD77740024ABAD86F2 /* Pods-Copy Uber  Car Moving Animation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Copy Uber  Car Moving Animation.release.xcconfig"; path = "Pods/Target Support Files/Pods-Copy Uber  Car Moving Animation/Pods-Copy Uber  Car Moving Animation.release.xcconfig"; sourceTree = "<group>"; };
+		E45D0D03A7003100F9127838 /* libPods-Copy Uber  Car Moving Animation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Copy Uber  Car Moving Animation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A14E75EE1E4889340087AB66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F855DB331CDB7158E73934 /* libPods-Copy Uber  Car Moving Animation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F547F60901738665F943A44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FA07995496B9A935723EFED /* Pods-Copy Uber  Car Moving Animation.debug.xcconfig */,
+				CFD60ACD77740024ABAD86F2 /* Pods-Copy Uber  Car Moving Animation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		975A37B13647D1DA8AFE6F1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E45D0D03A7003100F9127838 /* libPods-Copy Uber  Car Moving Animation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A14E75E81E4889340087AB66 = {
+			isa = PBXGroup;
+			children = (
+				A14E75F31E4889340087AB66 /* Copy Uber  Car Moving Animation */,
+				A14E75F21E4889340087AB66 /* Products */,
+				5F547F60901738665F943A44 /* Pods */,
+				975A37B13647D1DA8AFE6F1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A14E75F21E4889340087AB66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A14E75F11E4889340087AB66 /* Copy Uber  Car Moving Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A14E75F31E4889340087AB66 /* Copy Uber  Car Moving Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A14E760B1E488AEE0087AB66 /* Category */,
+				A14E76151E488B810087AB66 /* MapBusAnnotationView.h */,
+				A14E76161E488B810087AB66 /* MapBusAnnotationView.m */,
+				A14E75F71E4889340087AB66 /* AppDelegate.h */,
+				A14E75F81E4889340087AB66 /* AppDelegate.m */,
+				A14E75FA1E4889340087AB66 /* ViewController.h */,
+				A14E75FB1E4889340087AB66 /* ViewController.m */,
+				A14E75FD1E4889340087AB66 /* Main.storyboard */,
+				A14E76001E4889340087AB66 /* Assets.xcassets */,
+				A14E76021E4889340087AB66 /* LaunchScreen.storyboard */,
+				A14E76051E4889340087AB66 /* Info.plist */,
+				A14E75F41E4889340087AB66 /* Supporting Files */,
+			);
+			path = "Copy Uber  Car Moving Animation";
+			sourceTree = "<group>";
+		};
+		A14E75F41E4889340087AB66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A14E75F51E4889340087AB66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A14E760B1E488AEE0087AB66 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A14E760C1E488B190087AB66 /* UIColor+HEX.h */,
+				A14E760D1E488B190087AB66 /* UIColor+HEX.m */,
+				A14E760E1E488B190087AB66 /* UIImage+Color.h */,
+				A14E760F1E488B190087AB66 /* UIImage+Color.m */,
+				A14E76101E488B190087AB66 /* NSTimer+Blocks.h */,
+				A14E76111E488B190087AB66 /* NSTimer+Blocks.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A14E75F01E4889340087AB66 /* Copy Uber  Car Moving Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A14E76081E4889340087AB66 /* Build configuration list for PBXNativeTarget "Copy Uber  Car Moving Animation" */;
+			buildPhases = (
+				D9F377A67A16A9BDC0C477BC /* 📦 Check Pods Manifest.lock */,
+				A14E75ED1E4889340087AB66 /* Sources */,
+				A14E75EE1E4889340087AB66 /* Frameworks */,
+				A14E75EF1E4889340087AB66 /* Resources */,
+				CA71268A1E8F410001068559 /* 📦 Embed Pods Frameworks */,
+				413F0F1C069BD5E6E5F4557C /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Copy Uber  Car Moving Animation";
+			productName = "Copy Uber  Car Moving Animation";
+			productReference = A14E75F11E4889340087AB66 /* Copy Uber  Car Moving Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A14E75E91E4889340087AB66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xiaoliuTX;
+				TargetAttributes = {
+					A14E75F01E4889340087AB66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TFGWJBK4QR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A14E75EC1E4889340087AB66 /* Build configuration list for PBXProject "Copy Uber  Car Moving Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A14E75E81E4889340087AB66;
+			productRefGroup = A14E75F21E4889340087AB66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A14E75F01E4889340087AB66 /* Copy Uber  Car Moving Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A14E75EF1E4889340087AB66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14E76041E4889340087AB66 /* LaunchScreen.storyboard in Resources */,
+				A14E76011E4889340087AB66 /* Assets.xcassets in Resources */,
+				A14E75FF1E4889340087AB66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		413F0F1C069BD5E6E5F4557C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Copy Uber  Car Moving Animation/Pods-Copy Uber  Car Moving Animation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA71268A1E8F410001068559 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Copy Uber  Car Moving Animation/Pods-Copy Uber  Car Moving Animation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F377A67A16A9BDC0C477BC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A14E75ED1E4889340087AB66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14E76141E488B190087AB66 /* NSTimer+Blocks.m in Sources */,
+				A14E75FC1E4889340087AB66 /* ViewController.m in Sources */,
+				A14E76171E488B810087AB66 /* MapBusAnnotationView.m in Sources */,
+				A14E76121E488B190087AB66 /* UIColor+HEX.m in Sources */,
+				A14E76131E488B190087AB66 /* UIImage+Color.m in Sources */,
+				A14E75F91E4889340087AB66 /* AppDelegate.m in Sources */,
+				A14E75F61E4889340087AB66 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A14E75FD1E4889340087AB66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14E75FE1E4889340087AB66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A14E76021E4889340087AB66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A14E76031E4889340087AB66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A14E76061E4889340087AB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A14E76071E4889340087AB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A14E76091E4889340087AB66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA07995496B9A935723EFED /* Pods-Copy Uber  Car Moving Animation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TFGWJBK4QR;
+				INFOPLIST_FILE = "Copy Uber  Car Moving Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoliuTX.lwp.Copy-Uber--Car-Moving-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A14E760A1E4889340087AB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD60ACD77740024ABAD86F2 /* Pods-Copy Uber  Car Moving Animation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TFGWJBK4QR;
+				INFOPLIST_FILE = "Copy Uber  Car Moving Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoliuTX.lwp.Copy-Uber--Car-Moving-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A14E75EC1E4889340087AB66 /* Build configuration list for PBXProject "Copy Uber  Car Moving Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14E76061E4889340087AB66 /* Debug */,
+				A14E76071E4889340087AB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A14E76081E4889340087AB66 /* Build configuration list for PBXNativeTarget "Copy Uber  Car Moving Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A14E76091E4889340087AB66 /* Debug */,
+				A14E760A1E4889340087AB66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A14E75E91E4889340087AB66 /* Project object */;
+}
